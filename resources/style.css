@@ -3,11 +3,12 @@ body {
     padding: 0;
     font-style: sans-serif;
     font-size: 12px;
+    color: powderblue;
 }
 
 nav {
-    color: white;
-    background-color: black;
+    /*color: powderblue;*/
+    background-color: #003366;
     position: fixed;
     z-index: 2;
     top: 0px;
@@ -16,24 +17,28 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-header ul {
+ul {
     display: flex;
 }
 
-header li {
+li {
     display: flex;
+    font-size: 1.5rem;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    font-size: 1.5rem;
 }
 
-header a {
-    color: white;
+a {
+    color: powderblue;
     text-decoration: none;
+    cursor: pointer;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 #social-media {
@@ -41,33 +46,41 @@ header a {
 }
 
 #social-media img {
-    border: 5px solid white;
-    background-color: white;
+    border: 5px solid powderblue;
+    background-color: powderblue;
     height: 24px;
     margin: 10px;
 }
+
+#social-media img:hover {
+    border: 5px solid aqua;
+    background-color: aqua;
+}
+
 main {
     position: relative;
     margin-top: 100px;
 }
 
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
 h2 {
     font-size: 4rem;
     text-align: center;
-    color: purple;
+    color: #003366;
 }
 
 #about-me {
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.75),
-        rgba(0, 0, 0, 0.75)), 
-        url('aryan-dhiman-iGLLtLINSkw-unsplash.jpg');
+    background-image:
+        linear-gradient(rgba(0, 51, 102, 0.80),
+            rgba(0, 51, 102, 0.90)),
+        url('clint-patterson-xfW9ZYfq3uE-unsplash\ \(1\).jpg');
     background-repeat: no-repeat;
-
-}
-
-#about-me {
-    background-color: rbga (0, 0, 0, 0.95);
+    background-color: rbga (0, 55, 92, 0.95);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -76,9 +89,9 @@ h2 {
 }
 
 #about-me div {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-align: center;
-    color: white;
+    /*color: powderblue;*/
     width: 40%;
     height: 600px;
     margin: 5%;
@@ -92,6 +105,7 @@ h2 {
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    opacity: 0.8;
 }
 
 .container {
@@ -104,12 +118,18 @@ h2 {
     margin-bottom: 0;
 }
 
+#projects a {
+    color: #44A2E1;
+    /*text-decoration: none;*/
+}
+
 .project {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin: 30px;
-    background-color: black;
+    background-color: #003366;
     height: 600px;
     width: 400px;
     padding: 30px;
@@ -117,12 +137,77 @@ h2 {
 
 h3 {
     font-size: 2rem;
+    /*color: powderblue;*/
+}
+
+.project li {
+    padding: 15px;
     color: white;
+    font-weight: bold;
 }
 
 .project p {
-    color: white;
+    /*color: powderblue;*/
     font-size: 1.5rem;
     line-height: 1.5;
-    
+
+}
+
+.project img {
+    height: 200px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+.project a {
+    /*color: #003366;*/
+    /*text-decoration: none;*/
+    /*cursor: pointer;*/
+}
+
+
+
+.project button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid powderblue;
+}
+
+.project button:hover {
+    background-color: aqua;
+}
+
+#skills ul {
+    flex-wrap: wrap;
+    align-items: center;
+    /*color: powderblue;*/
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+#skills li {
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+}
+
+footer {
+    background-color: #003366;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p {
+    padding: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
