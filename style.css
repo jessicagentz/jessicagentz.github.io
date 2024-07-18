@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: sans-serif;
+    font-size: 12px;
+    color: powderblue;
+}
+
+nav {
+    background-color: #003366;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    font-size: 1.5rem;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: powderblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+#social-media {
+    margin-right: 60px;
+}
+
+#social-media img {
+    border: 5px solid powderblue;
+    background-color: powderblue;
+    height: 24px;
+    margin: 10px;
+}
+
+#social-media img:hover {
+    border: 5px solid aqua;
+    background-color: aqua;
+}
+
+main {
+    position: relative;
+    margin-top: 100px;
+}
+
+h1 {
+    color: powderblue;
+    font-size: 3rem;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    color: #003366;
+}
+
+#about-me {
+    background-image:
+        linear-gradient(rgba(0, 51, 102, 0.80),
+            rgba(0, 51, 102, 0.90)),
+        url('clint-patterson-xfW9ZYfq3uE-unsplash\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-color: rbga (0, 55, 92, 0.95);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+
+#about-me div {
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+#headshot {
+    max-height: 500px;
+    width: auto;
+    margin: 0 5%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#projects h1 {
+    margin-bottom: 0;
+}
+
+#projects a {
+    color: #44A2E1;
+}
+
+.project {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    background-color: #003366;
+    height: 700px;
+    width: 400px;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.project li {
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.project p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+
+.project img {
+    height: 200px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+.project button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid powderblue;
+}
+
+.project button:hover {
+    background-color: aqua;
+}
+
+#skills ul {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+#skills li {
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+}
+
+footer {
+    background-color: #003366;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p {
+    padding: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
