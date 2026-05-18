@@ -142,7 +142,7 @@ h3 {
 }
 
 .project li {
-    padding: 15px;
+    /*padding: 15px;*/
     color: white;
     font-weight: bold;
 }
@@ -150,7 +150,7 @@ h3 {
 .project p {
     font-size: 1.5rem;
     line-height: 1.5;
-
+    padding: 10px;
 }
 
 .project img {
